@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnAdicionarGasto.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, CadastroGastoActivity.class);
+            Intent intent = new Intent(MainActivity.this, CadastroGasto.class);
             startActivityForResult(intent, 1);
         });
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             if (listaGastos.isEmpty()) {
                 Toast.makeText(MainActivity.this, "Nenhum gasto cadastrado!", Toast.LENGTH_SHORT).show();
             } else {
-                Intent intent = new Intent(MainActivity.this, ResumoCategoriaActivity.class);
+                Intent intent = new Intent(MainActivity.this, ResumoCategoria.class);
                 intent.putExtra("listaGastos", new ArrayList<>(listaGastos));
                 startActivity(intent);
             }

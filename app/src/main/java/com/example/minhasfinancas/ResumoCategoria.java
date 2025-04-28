@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ResumoCategoriaActivity extends AppCompatActivity {
+public class ResumoCategoria extends AppCompatActivity {
     private TextView txtResumo;
     private ProgressBar progressBar;
 

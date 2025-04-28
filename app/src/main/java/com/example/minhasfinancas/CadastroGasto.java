@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class CadastroGastoActivity extends AppCompatActivity {
+public class CadastroGasto extends AppCompatActivity {
     private EditText editDescricao, editValor, editData;
     private Spinner spinnerCategoria;
 
