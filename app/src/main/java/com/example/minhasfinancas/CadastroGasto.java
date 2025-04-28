@@ -25,7 +25,7 @@ public class CadastroGasto extends AppCompatActivity {
         spinnerCategoria = findViewById(R.id.spinnerCategoria);
 
 
-        String[] categorias = {"Alimentação", "Transporte", "Lazer", "Moradia", "Tecnologia", "Despeas pessoais", "Investimentos", "Dívidas", "Impostos", "Outros"};
+        String[] categorias = { "Tecnologia", "Despeas pessoais", "Investimentos", "Dívidas", "Alimentação", "Transporte", "Lazer", "Moradia", "Impostos", "Outros"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, categorias);
         spinnerCategoria.setAdapter(adapter);
 

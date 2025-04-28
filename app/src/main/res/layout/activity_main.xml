@@ -14,7 +14,7 @@
         android:id="@+id/btnResumoCategoria"
         android:layout_width="match_parent"
         android:layout_height="57dp"
-        android:text="Resumo por Categoria" />
+        android:text="Ver categorias adicionadas" />
 
     <Button
         android:id="@+id/btnAdicionarGasto"
